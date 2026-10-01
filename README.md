@@ -50,19 +50,19 @@ This firmware implements:
 
 
 
-\- \*\*Timer‑driven periodic measurements\*\* (TIM3 → task notification)
+\- \*\*Timer‑driven periodic measurements\*\* (TIM3 → task notification)  
 
-\- \*\*SHT31 sensor read task\*\* (HAL I2C)
+\- \*\*SHT31 sensor read task\*\* (HAL I2C)  
 
-\- \*\*EXTI13 button interrupt task\*\* (binary semaphore)
+\- \*\*EXTI13 button interrupt task\*\* (binary semaphore)  
 
-\- \*\*UART serialisation task\*\* (queue‑based)
+\- \*\*UART serialisation task\*\* (queue‑based)  
 
-\- \*\*FreeRTOS tickless idle\*\* with `PreSleepProcessing()` + `\_\_WFI()`
+\- \*\*FreeRTOS tickless idle\*\* with `PreSleepProcessing()` + `\_\_WFI()`  
 
-\- \*\*Deterministic task wakeup timing\*\*
+\- \*\*Deterministic task wakeup timing\*\*  
 
-\- \*\*Clear task priority hierarchy\*\*
+\- \*\*Clear task priority hierarchy\*\*  
 
 
 
@@ -150,7 +150,7 @@ Tickless idle is enabled:
 
 
 
-\- `configUSE\_TICKLESS\_IDLE = 1`
+\- `configUSE\_TICKLESS\_IDLE = 1`  
 
 \- `HAL\_SuspendTick()` before sleep  
 
@@ -162,7 +162,7 @@ Tickless idle is enabled:
 
 \### ⭐ Important  
 
-The system enters \*\*Sleep mode\*\*, provides meaningful low‑power behaviour:
+The system enters \*\*Sleep mode\*\*, providing meaningful low‑power behaviour:
 
 
 
@@ -202,7 +202,7 @@ The system enters \*\*Sleep mode\*\*, provides meaningful low‑power behaviour:
 
 \- Handles button events  
 
-
+&#x20; 
 
 \---
 
@@ -250,7 +250,7 @@ tickless-idle-freeRTOS/
 
 \- Flash to Nucleo board  
 
-&#x20;
+
 
 \---
 
