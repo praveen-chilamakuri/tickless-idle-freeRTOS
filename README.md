@@ -222,7 +222,7 @@ tickless-idle-freeRTOS/
 
 ├── Docs/                    # Logic analyser \& Serial monitor screenshots, architecture, power-notes
 
-├── Middlewares/             # FreeRTOS files
+├── Middlewares/             # FreeRTOS files  
 
 ├── Project files/           # CubeMX .IOC file
 
