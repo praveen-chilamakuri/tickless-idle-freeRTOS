@@ -1,0 +1,39 @@
+# Build folders
+Debug/
+Release/
+build/
+out/
+
+# CubeIDE metadata
+.settings/
+.cproject
+.project
+.loaders/
+.launches/
+
+# Object files
+*.o
+*.obj
+*.elf
+*.map
+
+# Generated files
+*.bin
+*.hex
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
