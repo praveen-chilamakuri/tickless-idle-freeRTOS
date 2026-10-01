@@ -12,7 +12,7 @@ A FreeRTOS‑based firmware system for the STM32F411RE Nucleo board demonstratin
 
 This project is designed to showcase **real RTOS fundamentals**, **deterministic task behaviour**, and **low‑power operation**, written cleanly for recruiters and engineering teams.
 
-The system uses `configSYSTICK\_CLOCK\_HZ = CPU / 8`, increasing the SysTick overflow window from **1.048 seconds (16 MHz)** to **8.32 seconds (2 MHz)**.  
+The system uses `configSYSTICK_CLOCK_HZ = HCLK / 8`, increasing the SysTick overflow window from **1.048 seconds (16 MHz)** to **8.32 seconds (2 MHz)**.  
 
 A periodic TIM3 interrupt every **4 seconds** resets the SysTick counter before overflow, ensuring stable tickless‑idle timing.
 
