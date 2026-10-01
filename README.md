@@ -6,7 +6,7 @@ A FreeRTOS‑based firmware system for the STM32F411RE Nucleo board demonstratin
 
 
 
-\- Task‑based architecture  
+- Task‑based architecture  
 
 \- Interrupt‑driven wakeups  
 
