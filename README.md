@@ -1,5 +1,7 @@
 <h1 align="center">FreeRTOS Tickless Idle + Interrupt‑Driven Sensor System</h1>
 
+**License:** `MIT` | **MCU:** `STM32F411RE` | **Field:** `Embedded Systems` | **Sensors:** `SHT31` | **Focus:** `FreeRTOS`
+
 A FreeRTOS‑based firmware system for the STM32F411RE Nucleo board demonstrating:
 
 - Task‑based architecture  
